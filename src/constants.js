@@ -5,7 +5,7 @@ export const projectData = [
   {
     title: "Github Finder",
     description:
-      "A project I built to start learning React. This app uses the GitHub API to search for users and display information including public repos, gists, and follower information.",
+      "A project I built to start learning React. This app uses the GitHub API to search for users and display information including public repos, gists, and followers.",
     image: githubProjectImage,
     tags: ["React.js", "Tailwind CSS"],
     source: "https://github.com/mjsawaia/github-finder",
@@ -14,7 +14,7 @@ export const projectData = [
   {
     title: "House Marketplace",
     description:
-      "A mobile first web app for continued practice with React and Firebase. Users are authenticated and can add listings for homes to rent or sell and edit within their profile.",
+      "A mobile first web app for practice with React and Firebase. Users are authenticated and can add listings for homes to rent or sell and edit their listings in the profile page.",
     image: houseMarketplaceImage,
     tags: ["React.js", "Firebase"],
     source: "https://github.com/mjsawaia/house-marketplace",
