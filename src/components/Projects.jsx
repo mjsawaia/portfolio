@@ -2,13 +2,13 @@ import { projectData } from "../constants";
 
 const Projects = () => {
   return (
-    <section className="container mx-auto" id="projects">
+    <section className="container mx-auto my-14" id="projects">
       <h1 className="text-4xl font-bold">Projects</h1>
       <div className="divider"></div>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-evenly">
         {projectData.map((project) => {
           return (
-            <div className="card w-96 bg-base-100 shadow-xl m-10">
+            <div className="card w-96 bg-base-100 shadow-xl m-5 ">
               <figure>
                 <img src={project.image} alt="project" />
               </figure>

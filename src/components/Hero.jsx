@@ -1,9 +1,11 @@
+import mePhoto from "../asset/me.jpg";
+
 const Hero = () => {
   return (
-    <div className="hero min-h-96 bg-base-100">
+    <div className="hero h-screen bg-base-100">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="https://api.lorem.space/image/movie?w=260&h=400"
+          src={mePhoto}
           className="max-w-sm rounded-lg shadow-2xl m-5"
           alt="profile"
         />
