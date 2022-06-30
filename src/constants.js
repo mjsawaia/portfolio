@@ -9,7 +9,7 @@ export const projectData = [
     image: githubProjectImage,
     tags: ["React.js", "Tailwind CSS"],
     source: "https://github.com/mjsawaia/github-finder",
-    visit: "https://github-finder-mitch.herokuapp.com/",
+    visit: "https://github-finder-blush-nine.vercel.app/",
   },
   {
     title: "House Marketplace",
@@ -18,6 +18,6 @@ export const projectData = [
     image: houseMarketplaceImage,
     tags: ["React.js", "Firebase"],
     source: "https://github.com/mjsawaia/house-marketplace",
-    visit: "https://mitch-house-marketplace.herokuapp.com/",
+    visit: "https://house-marketplace-two-chi.vercel.app/",
   },
 ];

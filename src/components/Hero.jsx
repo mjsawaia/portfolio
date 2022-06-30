@@ -2,8 +2,8 @@ import mePhoto from "../asset/me.jpg";
 
 const Hero = () => {
   return (
-    <div className="hero h-screen bg-base-100">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero h-fit bg-base-100">
+      <div className="hero-content flex-col lg:flex-row-reverse py-36">
         <img
           src={mePhoto}
           className="max-w-sm rounded-lg shadow-2xl m-5"
