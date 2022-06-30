@@ -14,7 +14,7 @@ export const projectData = [
   {
     title: "House Marketplace",
     description:
-      "A mobile first web app for practice with React and Firebase. Users are authenticated and can add listings for homes to rent or sell and edit their listings in the profile page.",
+      "A mobile first web app for practice with React and Firebase. Users are authenticated, can add listings for homes and edit their listings on the profile page.",
     image: houseMarketplaceImage,
     tags: ["React.js", "Firebase"],
     source: "https://github.com/mjsawaia/house-marketplace",
