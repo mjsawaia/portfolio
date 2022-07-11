@@ -2,7 +2,7 @@ import { projectData } from "../constants";
 
 const Projects = () => {
   return (
-    <section className="container mx-auto my-14" id="projects">
+    <section className="container mx-auto my-20 mb-40" id="projects">
       <h1 className="text-4xl font-bold">Projects</h1>
       <div className="divider"></div>
       <div className="flex flex-wrap justify-evenly">

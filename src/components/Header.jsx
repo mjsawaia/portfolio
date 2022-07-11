@@ -2,7 +2,9 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <nav className="navbar bg-base-100 container mx-auto flex justify-between">
+    <nav
+      className="navbar bg-base-100 container mx-auto flex justify-between"
+      id="top">
       <button className="btn btn-ghost normal-case text-2xl">MITCH</button>
 
       <ul className="flex-col md:flex-row">
@@ -13,7 +15,7 @@ const Header = () => {
         </li>
         <li>
           <a className="btn btn-ghost" href="#technologies">
-            Tech Stack
+            Technologies
           </a>
         </li>
         <li>
