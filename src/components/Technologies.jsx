@@ -8,7 +8,7 @@ const Technologies = () => {
     <section className="container mx-auto my-20 mb-40" id="technologies">
       <h1 className="text-4xl font-bold">Technologies</h1>
       <div className="divider"></div>
-      <div className="grid grid-cols-2 xl:grid-cols-4 gap-5 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10">
         <div className="flex flex-col items-center">
           <img src={reactLogo} alt="react logo" className="h-60 mb-4" />
           <h2 className="text-4xl">React</h2>

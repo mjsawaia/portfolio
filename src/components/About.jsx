@@ -3,7 +3,7 @@ const About = () => {
     <section className="container mx-auto my-20" id="about">
       <h1 className="text-4xl font-bold">About Me</h1>
       <div className="divider"></div>
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap gap-6">
         <div class="card p-3">
           <div class="card-body">
             <h2 class="card-title">My Journey</h2>
