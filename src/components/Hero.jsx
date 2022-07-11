@@ -4,7 +4,7 @@ import resume from "../asset/Mitchell-Sawaia-Resume.pdf";
 const Hero = () => {
   return (
     <div className="hero h-fit bg-base-100">
-      <div className="hero-content flex-col lg:flex-row py-36">
+      <div className="hero-content flex-col lg:flex-row lg:py-36">
         <img
           src={mePhoto}
           className="max-w-sm rounded-lg shadow-2xl m-5"
