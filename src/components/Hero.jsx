@@ -1,4 +1,5 @@
 import mePhoto from "../asset/me.jpg";
+import resume from "../asset/Mitchell-Sawaia-Resume.pdf";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
             className="btn btn-primary"
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1Zw9M5qlZ9uLvNejWFZ6dcngSomGWfbhW/view?usp=sharing">
+            href={resume}>
             View Resume
           </a>
         </div>
