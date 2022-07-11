@@ -5,7 +5,7 @@ import mongoLogo from "../asset/mongo-logo.png";
 
 const Technologies = () => {
   return (
-    <section className="container mx-auto my-20 mb-40" id="technologies">
+    <section className="container mx-auto my-20 lg:mb-40" id="technologies">
       <h1 className="text-4xl font-bold">Technologies</h1>
       <div className="divider"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10">
