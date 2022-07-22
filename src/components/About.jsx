@@ -11,7 +11,7 @@ const About = () => {
               Discovering the world of web development started as a hobby and
               quickly grew into a passion. From covering the basics of HTML,
               CSS, and JavaScript and diving into libraries such as React,
-              Express, and Tailwind, I continue to enjoy every setp along the
+              Express, and Tailwind, I continue to enjoy every step along the
               way.
             </p>
           </div>
