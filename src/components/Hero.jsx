@@ -1,5 +1,5 @@
 import mePhoto from "../asset/me.jpg";
-import resume from "../asset/Mitchell-Sawaia-Resume.pdf";
+import resume from "../asset/Resume.pdf";
 
 const Hero = () => {
   return (
