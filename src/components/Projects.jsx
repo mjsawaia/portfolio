@@ -29,13 +29,15 @@ const Projects = () => {
                     rel="noreferrer">
                     Code
                   </a>
-                  <a
-                    className="btn btn-primary"
-                    href={project.visit}
-                    target="_blank"
-                    rel="noreferrer">
-                    Demo
-                  </a>
+                  {project.title === "Support Ticket App" ? null : (
+                    <a
+                      className="btn btn-primary"
+                      href={project.visit}
+                      target="_blank"
+                      rel="noreferrer">
+                      Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

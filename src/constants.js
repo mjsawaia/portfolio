@@ -8,14 +8,14 @@ export const projectData = [
     description:
       "A React project that uses the GitHub API to search for users and display information including public repos, gists, and followers.",
     image: githubProjectImage,
-    tags: ["React.js", "Tailwind CSS"],
+    tags: ["React.js", "Tailwind CSS", "Daisy UI"],
     source: "https://github.com/mjsawaia/github-finder",
     visit: "https://github-finder-blush-nine.vercel.app/",
   },
   {
     title: "Support Ticket App",
     description:
-      "A full MERN stack project where users can submit support tickets and leave notes for review.",
+      "A full MERN stack support tickets application. Heroku hosting is no longer free, so the demo for this project is temporarily unavailable while I migrate this to Next.js. In the meantime, please feel free to check out the github repo.",
     image: supportTicketImage,
     tags: ["React.js", "Express.js", "MongoDB", "Redux Tooklit"],
     source: "https://github.com/mjsawaia/support-ticket",
